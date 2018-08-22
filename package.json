@@ -16,6 +16,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
@@ -25,7 +26,10 @@
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1",
+    "scss-library-media-commons": "git+https://github.com/majoer/scss-library-media-commons.git"
   }
 }

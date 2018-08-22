@@ -1,0 +1,15 @@
+.app-selector {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 90%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+@media(max-width: 1024px) {
+  .app-selector {
+    flex-direction: column;
+  }
+}
